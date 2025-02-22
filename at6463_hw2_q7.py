@@ -8,8 +8,8 @@ def findChange(lst01):
             if middle == 0 or lst01[middle - 1] == 0:
                 return middle
             else:
-                right = mid - 1
+                right = middle - 1
         else:
-            left = mid + 1
+            left = middle + 1
 
     return -1
